@@ -1,0 +1,68 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.info {
+    /* Абзац с классом info */
+    color: peachpuff;
+    /* Синий цвет текста */
+    margin-left: 20px;
+    /* Отступ слева */
+    border-left: 1px solid peachpuff;
+    /* Граница слева от текста */
+    padding-left: 10px;
+    /* Расстояние от линии до текста */
+}
+
+.time {
+    float: left;
+    /* Выравнивание по правому краю */
+    border: 0px solid #333;
+    /* Параметры рамки */
+    padding: 7px;
+    /* Поля внутри блока */
+    display: block;
+    text-align: center;
+    margin: 10px 0 5px 5px;
+    /* Отступы вокруг */
+    background: #1C1C1C;
+    /* Цвет фона */
+}
+
+.sign figcaption {
+    margin: 0 auto 5px;
+    /* Отступы вокруг абзаца */
+}
+
+.glass {
+    float: center;
+    /* Выравнивание по правому краю */
+    border: 2px solid white;
+    /* Параметры рамки */
+    padding: 2px;
+    /* Поля внутри блока */
+    margin: 5px 5px 5px 5px;
+    /* Отступы вокруг */
+}
+
+.line {
+    content: '';
+    position: absolute;
+    bottom: 2px;
+    background: #fff;
+    z-index: 2;
+    filter: blur(10px);
+}
+
+button.new {
+    background: black;
+    padding: 3px 7px;
+    color: #333;
+    border-radius: 25px;
+    border: 1px solid #666;
+}
+
+.span {
+    text-align: center;
+}
